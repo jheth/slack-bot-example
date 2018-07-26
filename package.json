@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "outdoorsy slack bot; indoorsy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/outdoorsy/indoorsy-bot"
+  },
+  "private": true,
+  "dependencies": {
+    "botkit": "0.6.16",
+    "botkit-storage-redis": "^1.1.0",
+    "moment": "^2.22.0",
+    "node-env-file": "^0.1.8",
+    "node-fetch": "^2.0.1",
+    "redis": "^2.8.0",
+    "urijs": "^1.19.1"
+  }
+}
